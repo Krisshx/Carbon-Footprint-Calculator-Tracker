@@ -1,10 +1,10 @@
 # Carbon Footprint Calculator & Tracker
 
-## 🌱 Project Overview
+## Project Overview
 
 A comprehensive web application designed to help individuals and small businesses track and reduce their carbon footprint through AI-powered personalized recommendations.
 
-## 🎯 Features
+## Features
 
 ### 1. **User Authentication**
 - Secure registration and login system
@@ -34,7 +34,7 @@ A comprehensive web application designed to help individuals and small businesse
 - Actionable suggestions for reducing carbon footprint
 - Fallback recommendations when API is unavailable
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Assignment_1/
@@ -83,7 +83,7 @@ Assignment_1/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -139,7 +139,7 @@ npm start
 
 The frontend will open at `http://localhost:3000`
 
-## 📊 Carbon Emission Formulas
+## Carbon Emission Formulas
 
 The application uses the following formulas to calculate emissions:
 
@@ -170,7 +170,7 @@ The application uses the following formulas to calculate emissions:
 - Waste: kg × 0.5 kg CO₂
 - Water: Liters × 0.0003 kg CO₂
 
-## 🤖 AI Integration
+## AI Integration
 
 The application supports OpenAI API for generating personalized recommendations. If the API key is not configured, the application falls back to pre-defined recommendations.
 
@@ -178,7 +178,7 @@ To enable AI recommendations:
 1. Get an API key from [OpenAI](https://platform.openai.com/)
 2. Add it to your `.env` file as `OPENAI_API_KEY`
 
-## 📱 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register a new user
@@ -199,21 +199,21 @@ To enable AI recommendations:
 ### Recommendations
 - `GET /api/recommendations` - Get AI-powered recommendations
 
-## 🎨 Responsive Design
+## Responsive Design
 
 The application is fully responsive and works seamlessly on:
 - Desktop (1920px and above)
 - Tablet (768px - 1024px)
 - Mobile (320px - 767px)
 
-## 🔐 Security Features
+## Security Features
 
 - Password hashing with bcryptjs
 - JWT-based authentication
 - Protected API routes
 - Secure environment variable management
 
-## 📈 Technical Stack
+## Technical Stack
 
 **Frontend:**
 - React 18.2
@@ -227,27 +227,3 @@ The application is fully responsive and works seamlessly on:
 - JWT for authentication
 - OpenAI API integration
 
-## 🧪 Testing the Application
-
-1. Register a new account
-2. Log in with your credentials
-3. Add various activities (transportation, energy, diet, consumption)
-4. View your emissions on the dashboard
-5. Check personalized recommendations
-6. Track your progress over time
-
-## 🤝 Contributing
-
-Feel free to fork this project and submit pull requests for any improvements.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 📞 Support
-
-For issues or questions, please open an issue on GitHub or contact the development team.
-
----
-
-**Happy carbon tracking! 🌍**
